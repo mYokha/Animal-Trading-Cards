@@ -1,13 +1,13 @@
 /*********General*********/
 * {
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
+}
+.content {
+	width: 340px;
 }
 
 .wrapper {
-	margin: 0 auto;
-	min-width: 240px;
-	max-width: 1270px;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
@@ -24,7 +24,9 @@ a:hover {
 	color: #4f4f4f;
 }
 
-.wrapper,  .animal-description {
+.wrapper, 
+.animal-description,
+.animal-image {
 	border: 1px solid #ccc;
 }
 /*************************/
@@ -35,7 +37,7 @@ h3 {
 	margin: 20px;
 }
 
-h4{
+h4 {
 	margin-top: 0;
 }
 /*************************/
@@ -48,8 +50,8 @@ h4{
 }
 
 .animal-image {
-	max-width: 100%;
-	padding: 0 20px;
+	width: 300px;
+	margin: 0 20px;
 }
 
 .animal-important-info {
@@ -62,6 +64,7 @@ h4{
 .animal-property {
 	font-weight: 700;
 }
+
 ul li {
 	list-style-type: none;
 }
