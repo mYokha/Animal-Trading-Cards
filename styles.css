@@ -25,8 +25,7 @@ a:hover {
 }
 
 .wrapper, 
-.animal-description,
-.animal-image {
+.animal-description {
 	border: 1px solid #ccc;
 }
 /*************************/
