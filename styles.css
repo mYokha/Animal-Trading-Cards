@@ -1,0 +1,70 @@
+/*********General*********/
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	min-width: 240px;
+	max-width: 1270px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+	color: #02b3e4;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #4f4f4f;
+}
+
+.wrapper,  .animal-description {
+	border: 1px solid #ccc;
+}
+/*************************/
+
+/********Headings*********/
+h3 {
+	font-size: 2em;
+	margin: 20px;
+}
+
+h4{
+	margin-top: 0;
+}
+/*************************/
+
+
+/*******Description*******/
+.animal-description {
+	padding: 20px;
+	margin: 20px;
+}
+
+.animal-image {
+	max-width: 100%;
+	padding: 0 20px;
+}
+
+.animal-important-info {
+	font-style: italic;
+}
+/*************************/
+
+
+/******List of props********/
+.animal-property {
+	font-weight: 700;
+}
+ul li {
+	list-style-type: none;
+}
+ul {
+	padding-left: 0;
+}
